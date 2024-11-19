@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* Establezco como minimo 100vh */
+    min-height: 100vh;
+}
+
+main {
+    /* hago crecer el main, si no tiene contenido crece */
+    flex-grow: 1;
+}
